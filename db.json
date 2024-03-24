@@ -1,0 +1,150 @@
+{
+  "students": [
+    {
+      "username": "mohamed",
+      "email": "mohamed@mohamed.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "JavaScript",
+          "id": "2",
+          "degree": 1
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "username": "ahmed",
+      "email": "ahmed@ahmed.com",
+      "password": "123",
+      "subjects": [],
+      "id": "9"
+    },
+    {
+      "username": "sayed",
+      "email": "sayed@sayed.com",
+      "password": "123",
+      "id": "6"
+    },
+    {
+      "username": "ali",
+      "email": "ali@ali.com",
+      "password": "123",
+      "id": "10"
+    },
+    {
+      "username": "mano",
+      "email": "mano@mano.com",
+      "password": "123",
+      "subjects": [],
+      "id": "11"
+    }
+  ],
+  "doctor": [
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "123",
+      "id": "1"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "SQL",
+      "questions": [
+        {
+          "question": "What does SQL stand for?",
+          "answer1": "Structured Query Language",
+          "answer2": "Sequential Query Language",
+          "answer3": "Standard Question Language",
+          "answer4": "Simple Query Language",
+          "correctAnswer": "Structured Query Language"
+        },
+        {
+          "question": "What command is used to retrieve data from a SQL database?",
+          "answer1": "FETCH",
+          "answer2": "SELECT",
+          "answer3": "RETRIEVE",
+          "answer4": "GET",
+          "correctAnswer": "SELECT"
+        },
+        {
+          "question": "What is the result of combining records from two or more tables called in SQL?",
+          "answer1": "Aggregate",
+          "answer2": "Join",
+          "answer3": "Group",
+          "answer4": "Merge",
+          "correctAnswer": "Join"
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "name": "JavaScript",
+      "questions": [
+        {
+          "question": "What is JavaScript primarily used for?",
+          "answer1": "Styling web pages",
+          "answer2": "Adding interactivity to web pages",
+          "answer3": "Creating databases",
+          "answer4": "Performing server-side tasks",
+          "correctAnswer": "Adding interactivity to web pages"
+        },
+        {
+          "question": "Which keyword is used to declare variables in JavaScript?",
+          "answer1": "var",
+          "answer2": "let",
+          "answer3": "const",
+          "answer4": "variable",
+          "correctAnswer": "var"
+        },
+        {
+          "question": "What is a JavaScript function?",
+          "answer1": "A piece of code that performs a specific task",
+          "answer2": "A variable",
+          "answer3": "A loop",
+          "answer4": "An object",
+          "correctAnswer": "A piece of code that performs a specific task"
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "name": "Database",
+      "questions": [
+        {
+          "question": "What is a primary key in a database table?",
+          "answer1": "A key used for opening the database",
+          "answer2": "A unique identifier for each record in the table",
+          "answer3": "A key used for locking the database",
+          "answer4": "A key used for encrypting the database",
+          "correctAnswer": "A unique identifier for each record in the table"
+        },
+        {
+          "question": "Which SQL keyword is used to add data to a database table?",
+          "answer1": "INSERT",
+          "answer2": "ADD",
+          "answer3": "UPDATE",
+          "answer4": "PUT",
+          "correctAnswer": "INSERT"
+        },
+        {
+          "question": "What is a foreign key in a database table?",
+          "answer1": "A key used for opening the database",
+          "answer2": "A key used for joining tables",
+          "answer3": "A key used for linking two tables together",
+          "answer4": "A key used for encrypting the database",
+          "correctAnswer": "A key used for linking two tables together"
+        }
+      ],
+      "id": "3"
+    }
+  ],
+  "login": [
+    {
+      "username": "admin",
+      "role": "doctor",
+      "id": "1"
+    }
+  ]
+}
