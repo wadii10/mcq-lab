@@ -80,7 +80,7 @@ export class NewExamComponent implements OnInit {
 
   submit() {
     const model = {
-      name: this.subName,
+      name: this.subjectName,
       questions: this.questions,
     };
     if (this.preview) {

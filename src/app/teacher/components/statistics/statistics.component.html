@@ -1,0 +1,20 @@
+<div class="subjectBox">
+    <div class="row">
+        <div class="namesubject">
+          <div> Number of Students: {{nbMmembers}}</div>
+        </div>
+        
+      </div>
+    </div>
+  
+
+<div class="chart-wrapper">
+  <canvas
+    baseChart
+    [type]="'pie'"
+    [datasets]="chartData1"
+    [labels]="chartLabels1"
+    [options]="chartOptions1"
+  >
+  </canvas>
+</div>

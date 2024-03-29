@@ -36,7 +36,7 @@ export class SubjectsComponent implements OnInit{
     let id = this.subjects[index].id
     this.subjects.splice(index, 1)
     this.DS.deleteSubject(id).subscribe(res=>{
-      this.toaster.success("تم حذف المادة بنجاح")
+      this.toaster.success("subject deleted succefully");
     })
   }
 }

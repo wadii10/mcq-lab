@@ -6,8 +6,23 @@
       "password": "123",
       "subjects": [
         {
-          "name": "JavaScript",
+          "name": "math",
           "id": "2",
+          "degree": 1
+        },
+        {
+          "name": "german",
+          "id": "3",
+          "degree": 0
+        },
+        {
+          "name": "حساب",
+          "id": "1",
+          "degree": 1
+        },
+        {
+          "name": "JavaScript",
+          "id": "d981",
           "degree": 1
         }
       ],
@@ -17,7 +32,13 @@
       "username": "ahmed",
       "email": "ahmed@ahmed.com",
       "password": "123",
-      "subjects": [],
+      "subjects": [
+        {
+          "name": "math",
+          "id": "2",
+          "degree": 2
+        }
+      ],
       "id": "9"
     },
     {
@@ -36,7 +57,13 @@
       "username": "mano",
       "email": "mano@mano.com",
       "password": "123",
-      "subjects": [],
+      "subjects": [
+        {
+          "name": "german",
+          "id": "3",
+          "degree": 1
+        }
+      ],
       "id": "11"
     }
   ],
@@ -50,100 +77,187 @@
   ],
   "subjects": [
     {
-      "name": "SQL",
+      "name": "math",
       "questions": [
         {
-          "question": "What does SQL stand for?",
-          "answer1": "Structured Query Language",
-          "answer2": "Sequential Query Language",
-          "answer3": "Standard Question Language",
-          "answer4": "Simple Query Language",
-          "correctAnswer": "Structured Query Language"
+          "question": "2+2",
+          "answer1": "4",
+          "answer2": "5",
+          "answer3": "2",
+          "answer4": "8",
+          "correctAnswer": "4"
         },
         {
-          "question": "What command is used to retrieve data from a SQL database?",
-          "answer1": "FETCH",
-          "answer2": "SELECT",
-          "answer3": "RETRIEVE",
-          "answer4": "GET",
-          "correctAnswer": "SELECT"
-        },
-        {
-          "question": "What is the result of combining records from two or more tables called in SQL?",
-          "answer1": "Aggregate",
-          "answer2": "Join",
-          "answer3": "Group",
-          "answer4": "Merge",
-          "correctAnswer": "Join"
-        }
-      ],
-      "id": "1"
-    },
-    {
-      "name": "JavaScript",
-      "questions": [
-        {
-          "question": "What is JavaScript primarily used for?",
-          "answer1": "Styling web pages",
-          "answer2": "Adding interactivity to web pages",
-          "answer3": "Creating databases",
-          "answer4": "Performing server-side tasks",
-          "correctAnswer": "Adding interactivity to web pages"
-        },
-        {
-          "question": "Which keyword is used to declare variables in JavaScript?",
-          "answer1": "var",
-          "answer2": "let",
-          "answer3": "const",
-          "answer4": "variable",
-          "correctAnswer": "var"
-        },
-        {
-          "question": "What is a JavaScript function?",
-          "answer1": "A piece of code that performs a specific task",
-          "answer2": "A variable",
-          "answer3": "A loop",
-          "answer4": "An object",
-          "correctAnswer": "A piece of code that performs a specific task"
+          "question": "2+3",
+          "answer1": "4",
+          "answer2": "5",
+          "answer3": "2",
+          "answer4": "8",
+          "correctAnswer": "5"
         }
       ],
       "id": "2"
     },
     {
-      "name": "Database",
+      "name": "Bio",
+      "questions": [],
+      "id": "4"
+    },
+    {
+      "name": "regt",
+      "questions": [],
+      "id": "5"
+    },
+    {
+      "name": "gg",
       "questions": [
         {
-          "question": "What is a primary key in a database table?",
-          "answer1": "A key used for opening the database",
-          "answer2": "A unique identifier for each record in the table",
-          "answer3": "A key used for locking the database",
-          "answer4": "A key used for encrypting the database",
-          "correctAnswer": "A unique identifier for each record in the table"
-        },
-        {
-          "question": "Which SQL keyword is used to add data to a database table?",
-          "answer1": "INSERT",
-          "answer2": "ADD",
-          "answer3": "UPDATE",
-          "answer4": "PUT",
-          "correctAnswer": "INSERT"
-        },
-        {
-          "question": "What is a foreign key in a database table?",
-          "answer1": "A key used for opening the database",
-          "answer2": "A key used for joining tables",
-          "answer3": "A key used for linking two tables together",
-          "answer4": "A key used for encrypting the database",
-          "correctAnswer": "A key used for linking two tables together"
+          "question": "gdfgd",
+          "answer1": "gdd",
+          "answer2": "dg",
+          "answer3": "dg",
+          "answer4": "dg",
+          "correctAnswer": "dg"
         }
       ],
-      "id": "3"
+      "id": "6"
+    },
+    {
+      "name": "dasf",
+      "questions": [
+        {
+          "question": "faf",
+          "answer1": "sdf",
+          "answer2": "a",
+          "answer3": "ff",
+          "answer4": "ff",
+          "correctAnswer": "ff"
+        }
+      ],
+      "id": "7"
+    },
+    {
+      "name": "ew",
+      "questions": [
+        {
+          "question": "sfa",
+          "answer1": "af",
+          "answer2": "fa",
+          "answer3": "afs",
+          "answer4": "asf",
+          "correctAnswer": "afs"
+        }
+      ],
+      "id": "8"
+    },
+    {
+      "name": "ggdg",
+      "questions": [
+        {
+          "question": "gdfbd",
+          "answer1": "ag",
+          "answer2": "d",
+          "answer3": "hff",
+          "answer4": "fgd",
+          "correctAnswer": "hff"
+        }
+      ],
+      "id": "9"
+    },
+    {
+      "name": "gg",
+      "questions": [
+        {
+          "question": "dfg",
+          "answer1": "df",
+          "answer2": "gdf",
+          "answer3": "g",
+          "answer4": "dd",
+          "correctAnswer": "df"
+        }
+      ],
+      "id": "10"
+    },
+    {
+      "name": "dasd",
+      "questions": [
+        {
+          "question": "dasav",
+          "answer1": "asd",
+          "answer2": "as",
+          "answer3": "sdvvsd",
+          "answer4": "A",
+          "correctAnswer": "A"
+        }
+      ],
+      "id": "13"
+    },
+    {
+      "name": "fds",
+      "questions": [
+        {
+          "question": "ssdfgs",
+          "answer1": "f",
+          "answer2": "afsd",
+          "answer3": "sfd",
+          "answer4": "sdf",
+          "correctAnswer": "afsd"
+        }
+      ],
+      "id": "14"
+    },
+    {
+      "name": "ad",
+      "questions": [
+        {
+          "question": "fasf",
+          "answer1": "sfs",
+          "answer2": "dsdsfa",
+          "answer3": "afs",
+          "answer4": "dasf",
+          "correctAnswer": "dasf"
+        }
+      ],
+      "id": "15"
+    },
+    {
+      "name": "ffsd",
+      "questions": [
+        {
+          "question": "asff",
+          "answer1": "afaf",
+          "answer2": "asfa",
+          "answer3": "afa",
+          "answer4": "fasf",
+          "correctAnswer": "afaf"
+        }
+      ],
+      "id": "16"
+    },
+    {
+      "name": "dasd",
+      "questions": [],
+      "id": "17"
+    },
+    {
+      "id": "d981",
+      "name": "JavaScript",
+      "questions": [
+        {
+          "question": "how to read data in the console?",
+          "answer1": "Console.log",
+          "answer2": "print",
+          "answer3": "system.out.print",
+          "answer4": "read",
+          "correctAnswer": "Console.log"
+        }
+      ]
     }
   ],
   "login": [
     {
-      "username": "admin",
-      "role": "doctor",
+      "username": "ahmed",
+      "role": "students",
       "id": "1"
     }
   ]

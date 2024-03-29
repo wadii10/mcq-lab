@@ -6,8 +6,10 @@ import { SubjectsComponent } from './teacher/components/subjects/subjects.compon
 import { NewExamComponent } from './teacher/components/new-exam/new-exam.component';
 import { StudentsComponent } from './teacher/components/students/students.component';
 import { ExamComponent } from './student/exam/exam.component';
+import { StatisticsComponent } from './teacher/components/statistics/statistics.component';
 
 const routes: Routes = [
+  {path:'statistics', pathMatch:'full',component:StatisticsComponent},
   {path:'exam/:id' , pathMatch:'full', component:ExamComponent},
   {path: 'students', pathMatch:'full', component:StudentsComponent},
   {path:'newExam', pathMatch:'full', component:NewExamComponent},

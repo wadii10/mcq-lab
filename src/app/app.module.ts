@@ -30,6 +30,8 @@ import { SubjectsComponent } from './teacher/components/subjects/subjects.compon
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { MatStepperModule } from '@angular/material/stepper';
 import { ExamComponent } from './student/exam/exam.component';
+import { StatisticsComponent } from './teacher/components/statistics/statistics.component';
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,7 @@ import { ExamComponent } from './student/exam/exam.component';
     SubjectsComponent,
     NavbarComponent,
     ExamComponent,
+    StatisticsComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,9 +69,11 @@ import { ExamComponent } from './student/exam/exam.component';
     RouterModule,
     ReactiveFormsModule,
     ToastrModule.forRoot(),
+    NgChartsModule
   ],
 
   providers: [],
   bootstrap: [AppComponent],
 })
+
 export class AppModule {}

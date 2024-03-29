@@ -2,8 +2,8 @@
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <a class="navbar-brand" routerLinkActive="active" routerLink="welcome"><img
-            src="../../../assets/images/school_white_24dp.svg" alt=""> Exams </a>
+        <a class="navbar-brand" routerLinkActive="active" routerLink="welcome">
+          <img src="../../../assets/images/logo.jpg" alt=""> Exams </a>
       </div>
   
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -11,6 +11,7 @@
         <ul class="nav navbar-right d-flex align-items-center">
           <li *ngIf="user?.role == 'doctor'" routerLinkActive="active"><a routerLink="/newExam">new exam</a></li>
           <li *ngIf="user?.role == 'doctor'" routerLinkActive="active"><a routerLink="/students">students</a></li>
+          <li *ngIf="user?.role == 'doctor'" routerLinkActive="active"><a routerLink="/statistics">statistics</a></li>
           <li *ngIf="user !== null" routerLinkActive="active"><a routerLink="/subjects">subjects</a></li>
           <li *ngIf="user !== null" routerLinkActive="active" (click)="logOut()"><a routerLink="/login">log out</a></li>
           <li *ngIf="user == null" routerLinkActive="active"><a routerLink="/login">login</a></li>
